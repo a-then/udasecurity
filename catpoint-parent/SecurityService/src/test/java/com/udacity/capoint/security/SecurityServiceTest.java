@@ -9,7 +9,6 @@
 package com.udacity.capoint.security;
 
         import com.udacity.catpoint.image.service.FakeImageService;
-        import com.udacity.catpoint.image.service.ImageService;
         import com.udacity.catpoint.security.data.*;
         import com.udacity.catpoint.security.service.*;
         import org.junit.jupiter.api.BeforeEach;
@@ -34,8 +33,7 @@ package com.udacity.capoint.security;
 public class SecurityServiceTest {
     private SecurityService securityService;
     private Sensor sensor;
-//TODO :
-// mock ImageService interface instead of calling FakeImageService
+
     @Mock
     private FakeImageService imageService;
 
