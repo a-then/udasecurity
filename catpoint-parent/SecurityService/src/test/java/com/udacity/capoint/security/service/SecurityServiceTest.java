@@ -6,7 +6,7 @@
  */
 
 
-package com.udacity.capoint.security;
+package com.udacity.capoint.security.service;
 
         import com.udacity.catpoint.image.service.FakeImageService;
         import com.udacity.catpoint.security.data.*;
